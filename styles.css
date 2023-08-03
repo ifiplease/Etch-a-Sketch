@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+
+.container {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grids {
+    height: 31.25px;
+    width: 31.25px;
+    background-color: red;
+}
