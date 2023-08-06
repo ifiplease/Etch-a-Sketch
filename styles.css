@@ -1,13 +1,23 @@
 body {
     margin: 0;
     background-color: antiquewhite;
+}
+
+.top {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    flex-direction: column;
+    margin-top: 20px;
 
 }
 
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
 
 .container {
     width: 500px;
@@ -21,5 +31,4 @@ body {
 .grids {
     height: 31.25px;
     width: 31.25px;
-    background-color: red;
 }
