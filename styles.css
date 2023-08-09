@@ -35,7 +35,6 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40vh;
     flex-direction: column;
     margin-top: -40px;
 
@@ -52,11 +51,7 @@ h1 {
     height: 500px;
     background-color: white;
     box-shadow: 5px 5px 10px rgba(0,0,0,0.5);;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.grids {
-    height: 31.25px;
-    width: 31.25px;
+    position: relative;
+    overflow: hidden;
+    display: grid;
 }
